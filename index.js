@@ -12,8 +12,8 @@ const tutorials = [
 ];
 
 function titleCased() { 
-  return tutorials.map(
+  return tutorials.map( function(tutorial) {
     tutorial.replace(/\b[a-zA-Z]/g, (match) => match.toUpperCase()
-    )
-  );
+    );
+  });
 }

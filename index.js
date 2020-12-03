@@ -11,4 +11,4 @@ const tutorials = [
   'what is JSONP?'
 ];
 
-const titleCased = tutorials.map((tutorial) => tutorial.
+const titleCased = (tutorial) => tutorial.
